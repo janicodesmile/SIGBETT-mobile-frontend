@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".cobaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Δφ "
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="140dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Δφ "
+        android:id="@+id/tv_lattt"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="140dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="φ1 "
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="170dp"
+    />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="φ1 "
+        android:id="@+id/tv_longgg"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="170dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="φ2 "
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="φ2 "
+        android:id="@+id/ketiga"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Δλ "
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Δλ "
+        android:id="@+id/keempat"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="230dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a "
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a "
+        android:id="@+id/kelima"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="260dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c "
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="290dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c "
+        android:id="@+id/keenam"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="290dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d "
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="320dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d "
+        android:id="@+id/ketujuh"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="320dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textAllCaps="false"
+            android:text="Cari Latitute"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:id="@+id/btn_carilatt" />
+
+    </LinearLayout>
+
+</RelativeLayout>

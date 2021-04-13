@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="TODO"
+            android:src="@drawable/logofix" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:textSize="50sp"
+            android:fontFamily="@font/fr"
+            android:text="SIGBETT" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/frlight"
+            android:text="ini merupakan aplikasi yang bertujuan untuk memberikan informasi seputar bengkel yang berada ditebing tinggi, dengan aplikasi ini saya berharap dapat membantu masyarakat sekitar dalam hal menemukan bengkel yang sesuai kriteria mereka"
+            android:layout_below="@id/textView"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/test"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Demo"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/test"
+            android:id="@+id/lihatdemo"
+            />
+
+    </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/white">
+
+            <include
+                layout="@layout/main_nav_drawer"/>
+
+        </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

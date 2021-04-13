@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SIGBETT</string>
+    <string name="cari_nama">Cari Nama</string>
+    <string name="textview">TextView</string>
+    <string-array name="fasilitas">
+        <item>Pilih Fasilitas</item>
+        <item>Televisi</item>
+        <item>Minuman Dingin</item>
+        <item>Tempat duduk</item>
+    </string-array>
+    <string-array name="sort">
+        <item>Sort By :</item>
+        <item>Nama</item>
+        <item>Jarak</item>
+    </string-array>
+</resources>
